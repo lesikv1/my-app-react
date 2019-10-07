@@ -29,6 +29,8 @@ export default function Setting() {
     context.dispatch.setVisibleTable(ACTIONS.HIDE_TABLE)
   }
 
+  // context.state.table
+
   return (
     <div className='setting'>
       {!context.state.table ? (<div className='starting'>
